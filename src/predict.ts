@@ -40,7 +40,7 @@ const testData = new Data(
         0.558, 0.066, 0.068, 0.610, 0.057]
 )
 
-
+// we can use tensor1d also
 const trainTensors = {
     sizeMB: tf.tensor2d(trainData.sizeMB, [20, 1]),
     timeSec: tf.tensor2d(trainData.timeSec, [20, 1])
